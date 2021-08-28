@@ -14,7 +14,8 @@ def bar():
     import time
     progress['value'] = 20
     root.update_idletasks()
-    os.system("git fetch git://github.com/aghastmuffin/custommouse")
+#    os.system("git fetch git://github.com/aghastmuffin/custommouse")
+    os.system("https://raw.githubusercontent.com/aghastmuffin/custommouse/main/installer.py")
     os.system("passed 1")
 
     progress['value'] = 40
